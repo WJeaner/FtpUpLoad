@@ -8,26 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		D7642E801EC5667B003B0022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7642E7F1EC5667B003B0022 /* main.m */; };
-		D7642E831EC5667B003B0022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7642E821EC5667B003B0022 /* AppDelegate.m */; };
-		D7642E861EC5667B003B0022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7642E851EC5667B003B0022 /* ViewController.m */; };
+		D7642E831EC5667B003B0022 /* WKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7642E821EC5667B003B0022 /* WKAppDelegate.m */; };
 		D7642E891EC5667B003B0022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7642E871EC5667B003B0022 /* Main.storyboard */; };
 		D7642E8C1EC5667B003B0022 /* FtpUpLoad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7642E8A1EC5667B003B0022 /* FtpUpLoad.xcdatamodeld */; };
 		D7642E8E1EC5667B003B0022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7642E8D1EC5667B003B0022 /* Assets.xcassets */; };
 		D7642E911EC5667B003B0022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7642E8F1EC5667B003B0022 /* LaunchScreen.storyboard */; };
+		D7642E991EC566C7003B0022 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7642E981EC566C7003B0022 /* Default-568h@2x.png */; };
+		D7642E9C1EC566FF003B0022 /* WKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7642E9A1EC566FF003B0022 /* WKViewController.xib */; };
+		D7642E9F1EC56712003B0022 /* WKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7642E9E1EC56712003B0022 /* WKViewController.m */; };
+		D7642EA31EC56800003B0022 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7642EA21EC56800003B0022 /* CoreGraphics.framework */; };
+		D7642EA51EC56806003B0022 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7642EA41EC56806003B0022 /* UIKit.framework */; };
+		D7642EA71EC56816003B0022 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7642EA61EC56816003B0022 /* CFNetwork.framework */; };
+		D7642EA91EC56822003B0022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7642EA81EC56822003B0022 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D7642E7B1EC5667B003B0022 /* FtpUpLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FtpUpLoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7642E7F1EC5667B003B0022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D7642E811EC5667B003B0022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D7642E821EC5667B003B0022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D7642E841EC5667B003B0022 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D7642E851EC5667B003B0022 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7642E811EC5667B003B0022 /* WKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKAppDelegate.h; sourceTree = "<group>"; };
+		D7642E821EC5667B003B0022 /* WKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKAppDelegate.m; sourceTree = "<group>"; };
 		D7642E881EC5667B003B0022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7642E8B1EC5667B003B0022 /* FtpUpLoad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FtpUpLoad.xcdatamodel; sourceTree = "<group>"; };
 		D7642E8D1EC5667B003B0022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7642E901EC5667B003B0022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7642E921EC5667B003B0022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7642E981EC566C7003B0022 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D7642E9B1EC566FF003B0022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/WKViewController.xib; sourceTree = "<group>"; };
+		D7642E9D1EC56712003B0022 /* WKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKViewController.h; sourceTree = "<group>"; };
+		D7642E9E1EC56712003B0022 /* WKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKViewController.m; sourceTree = "<group>"; };
+		D7642EA01EC5671E003B0022 /* FtpUpLoad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FtpUpLoad-Prefix.pch"; sourceTree = "<group>"; };
+		D7642EA21EC56800003B0022 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D7642EA41EC56806003B0022 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D7642EA61EC56816003B0022 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D7642EA81EC56822003B0022 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +48,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7642EA91EC56822003B0022 /* Foundation.framework in Frameworks */,
+				D7642EA71EC56816003B0022 /* CFNetwork.framework in Frameworks */,
+				D7642EA51EC56806003B0022 /* UIKit.framework in Frameworks */,
+				D7642EA31EC56800003B0022 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +63,7 @@
 			children = (
 				D7642E7D1EC5667B003B0022 /* FtpUpLoad */,
 				D7642E7C1EC5667B003B0022 /* Products */,
+				D7642EA11EC56800003B0022 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +78,11 @@
 		D7642E7D1EC5667B003B0022 /* FtpUpLoad */ = {
 			isa = PBXGroup;
 			children = (
-				D7642E811EC5667B003B0022 /* AppDelegate.h */,
-				D7642E821EC5667B003B0022 /* AppDelegate.m */,
-				D7642E841EC5667B003B0022 /* ViewController.h */,
-				D7642E851EC5667B003B0022 /* ViewController.m */,
+				D7642E811EC5667B003B0022 /* WKAppDelegate.h */,
+				D7642E821EC5667B003B0022 /* WKAppDelegate.m */,
+				D7642E9D1EC56712003B0022 /* WKViewController.h */,
+				D7642E9E1EC56712003B0022 /* WKViewController.m */,
+				D7642E9A1EC566FF003B0022 /* WKViewController.xib */,
 				D7642E871EC5667B003B0022 /* Main.storyboard */,
 				D7642E8D1EC5667B003B0022 /* Assets.xcassets */,
 				D7642E8F1EC5667B003B0022 /* LaunchScreen.storyboard */,
@@ -77,9 +96,22 @@
 		D7642E7E1EC5667B003B0022 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D7642EA01EC5671E003B0022 /* FtpUpLoad-Prefix.pch */,
+				D7642E981EC566C7003B0022 /* Default-568h@2x.png */,
 				D7642E7F1EC5667B003B0022 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7642EA11EC56800003B0022 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7642EA81EC56822003B0022 /* Foundation.framework */,
+				D7642EA61EC56816003B0022 /* CFNetwork.framework */,
+				D7642EA41EC56806003B0022 /* UIKit.framework */,
+				D7642EA21EC56800003B0022 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +174,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7642E911EC5667B003B0022 /* LaunchScreen.storyboard in Resources */,
+				D7642E991EC566C7003B0022 /* Default-568h@2x.png in Resources */,
 				D7642E8E1EC5667B003B0022 /* Assets.xcassets in Resources */,
 				D7642E891EC5667B003B0022 /* Main.storyboard in Resources */,
+				D7642E9C1EC566FF003B0022 /* WKViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,9 +188,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7642E861EC5667B003B0022 /* ViewController.m in Sources */,
+				D7642E9F1EC56712003B0022 /* WKViewController.m in Sources */,
 				D7642E8C1EC5667B003B0022 /* FtpUpLoad.xcdatamodeld in Sources */,
-				D7642E831EC5667B003B0022 /* AppDelegate.m in Sources */,
+				D7642E831EC5667B003B0022 /* WKAppDelegate.m in Sources */,
 				D7642E801EC5667B003B0022 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +212,14 @@
 				D7642E901EC5667B003B0022 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D7642E9A1EC566FF003B0022 /* WKViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7642E9B1EC566FF003B0022 /* Base */,
+			);
+			name = WKViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -276,7 +318,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5KUUG2W558;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FtpUpLoad/FtpUpLoad-Prefix.pch";
 				INFOPLIST_FILE = FtpUpLoad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.www.FtpUpLoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,7 +333,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5KUUG2W558;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FtpUpLoad/FtpUpLoad-Prefix.pch";
 				INFOPLIST_FILE = FtpUpLoad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.www.FtpUpLoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -314,6 +362,7 @@
 				D7642E971EC5667B003B0022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
