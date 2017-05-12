@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7642E801EC5667B003B0022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7642E7F1EC5667B003B0022 /* main.m */; };
+		D7642E831EC5667B003B0022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7642E821EC5667B003B0022 /* AppDelegate.m */; };
+		D7642E861EC5667B003B0022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7642E851EC5667B003B0022 /* ViewController.m */; };
+		D7642E891EC5667B003B0022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7642E871EC5667B003B0022 /* Main.storyboard */; };
+		D7642E8C1EC5667B003B0022 /* FtpUpLoad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7642E8A1EC5667B003B0022 /* FtpUpLoad.xcdatamodeld */; };
+		D7642E8E1EC5667B003B0022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7642E8D1EC5667B003B0022 /* Assets.xcassets */; };
+		D7642E911EC5667B003B0022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7642E8F1EC5667B003B0022 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D7642E7B1EC5667B003B0022 /* FtpUpLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FtpUpLoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7642E7F1EC5667B003B0022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7642E811EC5667B003B0022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7642E821EC5667B003B0022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7642E841EC5667B003B0022 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7642E851EC5667B003B0022 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7642E881EC5667B003B0022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7642E8B1EC5667B003B0022 /* FtpUpLoad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FtpUpLoad.xcdatamodel; sourceTree = "<group>"; };
+		D7642E8D1EC5667B003B0022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7642E901EC5667B003B0022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7642E921EC5667B003B0022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7642E781EC5667B003B0022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7642E721EC5667B003B0022 = {
+			isa = PBXGroup;
+			children = (
+				D7642E7D1EC5667B003B0022 /* FtpUpLoad */,
+				D7642E7C1EC5667B003B0022 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7642E7C1EC5667B003B0022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7642E7B1EC5667B003B0022 /* FtpUpLoad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7642E7D1EC5667B003B0022 /* FtpUpLoad */ = {
+			isa = PBXGroup;
+			children = (
+				D7642E811EC5667B003B0022 /* AppDelegate.h */,
+				D7642E821EC5667B003B0022 /* AppDelegate.m */,
+				D7642E841EC5667B003B0022 /* ViewController.h */,
+				D7642E851EC5667B003B0022 /* ViewController.m */,
+				D7642E871EC5667B003B0022 /* Main.storyboard */,
+				D7642E8D1EC5667B003B0022 /* Assets.xcassets */,
+				D7642E8F1EC5667B003B0022 /* LaunchScreen.storyboard */,
+				D7642E921EC5667B003B0022 /* Info.plist */,
+				D7642E8A1EC5667B003B0022 /* FtpUpLoad.xcdatamodeld */,
+				D7642E7E1EC5667B003B0022 /* Supporting Files */,
+			);
+			path = FtpUpLoad;
+			sourceTree = "<group>";
+		};
+		D7642E7E1EC5667B003B0022 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7642E7F1EC5667B003B0022 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7642E7A1EC5667B003B0022 /* FtpUpLoad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7642E951EC5667B003B0022 /* Build configuration list for PBXNativeTarget "FtpUpLoad" */;
+			buildPhases = (
+				D7642E771EC5667B003B0022 /* Sources */,
+				D7642E781EC5667B003B0022 /* Frameworks */,
+				D7642E791EC5667B003B0022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FtpUpLoad;
+			productName = FtpUpLoad;
+			productReference = D7642E7B1EC5667B003B0022 /* FtpUpLoad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7642E731EC5667B003B0022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Jeaner;
+				TargetAttributes = {
+					D7642E7A1EC5667B003B0022 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5KUUG2W558;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D7642E761EC5667B003B0022 /* Build configuration list for PBXProject "FtpUpLoad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7642E721EC5667B003B0022;
+			productRefGroup = D7642E7C1EC5667B003B0022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7642E7A1EC5667B003B0022 /* FtpUpLoad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7642E791EC5667B003B0022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7642E911EC5667B003B0022 /* LaunchScreen.storyboard in Resources */,
+				D7642E8E1EC5667B003B0022 /* Assets.xcassets in Resources */,
+				D7642E891EC5667B003B0022 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7642E771EC5667B003B0022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7642E861EC5667B003B0022 /* ViewController.m in Sources */,
+				D7642E8C1EC5667B003B0022 /* FtpUpLoad.xcdatamodeld in Sources */,
+				D7642E831EC5667B003B0022 /* AppDelegate.m in Sources */,
+				D7642E801EC5667B003B0022 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7642E871EC5667B003B0022 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7642E881EC5667B003B0022 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7642E8F1EC5667B003B0022 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7642E901EC5667B003B0022 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7642E931EC5667B003B0022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7642E941EC5667B003B0022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7642E961EC5667B003B0022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5KUUG2W558;
+				INFOPLIST_FILE = FtpUpLoad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.www.FtpUpLoad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7642E971EC5667B003B0022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5KUUG2W558;
+				INFOPLIST_FILE = FtpUpLoad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.www.FtpUpLoad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7642E761EC5667B003B0022 /* Build configuration list for PBXProject "FtpUpLoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7642E931EC5667B003B0022 /* Debug */,
+				D7642E941EC5667B003B0022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7642E951EC5667B003B0022 /* Build configuration list for PBXNativeTarget "FtpUpLoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7642E961EC5667B003B0022 /* Debug */,
+				D7642E971EC5667B003B0022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7642E8A1EC5667B003B0022 /* FtpUpLoad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7642E8B1EC5667B003B0022 /* FtpUpLoad.xcdatamodel */,
+			);
+			currentVersion = D7642E8B1EC5667B003B0022 /* FtpUpLoad.xcdatamodel */;
+			path = FtpUpLoad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7642E731EC5667B003B0022 /* Project object */;
+}
